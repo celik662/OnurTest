@@ -1,0 +1,15 @@
+<suite name="My Suite" parallel="tests" thread-count="2">
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Pac.LuckyClass"></class>
+		</classes>
+	</test>
+	
+	<test name="FireFox Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="Pac.LuckyClass"></class>
+		</classes>
+	</test>
+</suite>

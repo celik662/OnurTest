@@ -1,0 +1,9 @@
+<suite name="My Suite">
+	<tests name="Tests">
+		<test name="Test1">
+			<classes>
+				<class name="Pac.LuckyClass"></class>
+			</classes>
+		</test>
+	</tests>	
+</suite>
